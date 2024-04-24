@@ -1,0 +1,15 @@
+MainWindow
+  !text: tr('Spells')
+  size: 160 450
+
+  @onEnter: modules.ui_button.destroy()
+  @onEscape: modules.ui_button.destroy()
+
+  Label
+    id: uibuttonLabel
+    !text: tr('ui_button')
+    width: 130
+    anchors.top: prev.top
+    anchors.left: prev.left
+    margin-top: 5
+    margin-left: 5

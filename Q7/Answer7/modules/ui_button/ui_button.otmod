@@ -1,0 +1,9 @@
+Module
+  name: ui_button
+  description: Dynamically creates a UI button that respawns at a random location on the screen upon being clicked.
+  author: tom
+  website: none
+  sandboxed: true
+  scripts: [ ui_button.lua ]
+  @onLoad: init()
+  @onUnload: terminate()

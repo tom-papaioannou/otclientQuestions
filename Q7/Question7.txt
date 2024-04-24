@@ -1,0 +1,1 @@
+Please reproduce the following 3 examples in a clean manner with comments as to why you programmed it the way you did. (Video Bellow)
